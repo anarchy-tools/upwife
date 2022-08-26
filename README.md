@@ -22,7 +22,7 @@ upwife is a collection of scripts which can automate these applications. So far,
 
 To run the Tinder script, install Tampermonkey chrome extension from the Chrome web store and create a new userscript. Paste the contents of `upwife-tinder.js` into the editor that appears, then save. Load the Tinder web application in Google Chrome at [https://tinder.com](https://tinder.com) and manually log-in to a Tinder account. Once loaded, it will begin the process of matching all potential wives in your desired radius.
 
-To run the Hinge script, make sure adb is installed and working on a desktop or laptop computer, and if you are not on Linux, get a POSIX-compliant bash executable on the system you are using. It is most straightforward to acquire a cheap Android device and enable USB debugging, login to a Hinge account, then start the script `upwife-hinge.sh` in bash. It will begin the mass match attack on the network.
+To run the Hinge script, make sure adb is installed and working on a desktop or laptop computer, and if you are not on Linux, get a POSIX-compliant bash executable on the system you are using. It is most straightforward to acquire a cheap Android device, enable USB debugging, login to a Hinge account, then start the script `upwife-hinge.sh` in bash. It will begin the mass match attack on the network.
 
 Allow the scripts to run for about a week, and don't bother trying to message any potential wives first. Best practice is to only attempt to wife-up ones that initialize a thread with your client without needing your user input. upwife should be able to match at least 120,000 potential wives over that timespan, freeing you up to continue your daily life.
 
