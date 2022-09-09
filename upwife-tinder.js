@@ -38,7 +38,7 @@
   while (true) {
     try {
       if (!clickFrontBySelector("button[title='Back to Tinder']")) {
-        clickBackByClassName("Bgc($c-like-green):a");
+        clickBackByClassName("Bgi($g-ds-background-like):a");
         clickFrontByClassName("c1p6lbu0");
       }
     } catch (e) {
