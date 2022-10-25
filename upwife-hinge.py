@@ -13,6 +13,11 @@ def target():
   if el:
     el.touch()
     return True
+  else:
+    el = vc.findViewById('co.hinge.app:id/likeButton')
+    if el:
+      el.touch()
+      return True
   return False
 
 def swoop():
